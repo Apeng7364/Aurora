@@ -13,7 +13,7 @@
 
 对CTF感兴趣的同学都可以加入我们一起学习。如果想更深一步了解CTF，可以到前往[CTF wiki](https://ctf-wiki.github.io/ctf-wiki/)。
 
-[这里](https://github.com/Apeng7364/Aurora/blob/master/Getting%20started.md)是协会提供的入门指引。
+[这里](./Getting_started.md)是协会提供的入门指引。
 
 ## 核心成员
 
