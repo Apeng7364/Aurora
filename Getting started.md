@@ -1,5 +1,12 @@
 # 信安协会入门指引
 
+## CTF 
+
+CTF WIKI: 
+https://ctf-wiki.github.io/ctf-wiki/
+CTF All-In-One：
+https://firmianay.gitbooks.io/ctf-all-in-one/content/
+
 ## WEB
 
 Web基础知识：
@@ -59,13 +66,6 @@ https://www.jianshu.com/p/02fdd5edd9fc
 https://www.cnblogs.com/gwind/p/8011248.html
 流量分析
 《Wireshark网络分析就这么简单》
-
-## CTF 
-
-CTF WIKI: 
-https://ctf-wiki.github.io/ctf-wiki/
-CTF All-In-One：
-https://firmianay.gitbooks.io/ctf-all-in-one/content/
 
 ## 总结
 
