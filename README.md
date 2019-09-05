@@ -15,7 +15,7 @@
 
 [这里](./Getting started.md)是协会提供的入门指引。
 
-## 成员
+## 核心成员
 
 [@Decade](https://wulidecade.cn/)
 
