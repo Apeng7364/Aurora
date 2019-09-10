@@ -2,20 +2,23 @@
 
 ## CTF 
 
-CTF WIKI: 
-https://ctf-wiki.github.io/ctf-wiki/
-CTF All-In-One：
-https://firmianay.gitbooks.io/ctf-all-in-one/content/
+### 相关站点 
 
-入门平台：
+CTF WIKI:
+https://ctf-wiki.github.io/ctf-wiki/
+
+### 入门平台
+
+cgctf和攻防世界的新手区是面向萌新的CTF平台，题目非常简单。可以到这两个平台做题学习。
+
+cgctf：https://cgctf.nuptsast.com/challenges
+攻防世界：https://adworld.xctf.org.cn/task
+中科大新生赛：https://hack2018.lug.ustc.edu.cn/
+bugku：https://ctf.bugku.com/
 
 中科大新生赛：https://hack2018.lug.ustc.edu.cn/
 
-cgctf：https://cgctf.nuptsast.com/challenges
-
 bugku：https://ctf.bugku.com/
-
-攻防世界：https://adworld.xctf.org.cn/task
 
 ## WEB
 
@@ -33,21 +36,77 @@ https://xianzhi.aliyun.com/forum/
 
 ## 逆向工程
 
-吾爱破解：
-https://www.52pojie.cn/
-看雪论坛
-https://bbs.pediy.com/
-推荐书籍：
+逆向工程，Reverse，缩写一般为Re。旨在不知晓源码的情况下对程序进行分析，获取其流程，组织，结构等。CTF中一般为注册机这种形式。
+
+最好会C语言和汇编语言，不必系统的学习汇编，上来先一条一条查指令手册，等熟悉了再仔细学习。
+需了解常见加密算法的实现，要做到快速识别，无需了解攻击过程。
+
+### 推荐书籍
+
 《汇编语言》（王爽）
+这本比较老了，讲的8086汇编，但是讲的很好。
+
 《加密与解密》（第四版）（看雪论坛）
+看雪出的经典书籍，名叫加密与解密实际上是讲逆向。各方各面都有讲到，很全面。
+
 《逆向工程核心原理》
+主要是windows逆向，以OD为主要工具。讲的很好，面向零基础。
+
+下面的我没看过，不好评价。。。
 《Reverse Engineering for Beginners》(电子书：https://beginners.re/)（中文版为《逆向工程权威指南》）
 《Android应用安全防护和逆向分析》
 《Android软件安全与逆向分析》
 
+### 常用工具
+
+IDA Pro
+极其强大的反汇编/反编译/调试工具，二进制选手必须会用，优秀的二进制选手能把IDA运用到出神入化的地步。有关IDA的使用能讲好多好多。
+吾爱破解论坛爱盘下载。
+
+x64dbg
+Windows平台优秀的开源反汇编器及调试器，可以看作Olly dbg的升级版，基本包含OD的全部功能，且一直在更新
+官网下载。
+
+gdb
+Linux的调试器，没有GUI。pwn选手必须掌握的技能。也可以使用IDA的远程调试功能调试linx程序。
+一般的Linux自带，没有的话apt安装。
+
+Jeb
+apk反编译工具，功能强大。
+
+jadx
+开源的apk反编译工具，轻量级
+
+其他
+dnSpy，xspy，CFF explorer等各类专用工具，需要靠做题中积累。
+
+### 论坛与站点
+
+汇编语言指令学习：https://www.cnblogs.com/del/category/121079.html
+这一系列文章细致的讲解了win32汇编，遇到不认识的指令可到这里查询（当然直接翻intel指令手册是最准确的）
+
+吾爱破解：知名破解论坛，注册有限制，需要10元注册或等开放。吾爱的爱盘内有大量常用工具，以及逆向专用虚拟机，可按需学习与使用。
+https://www.52pojie.cn/
+
+看雪论坛：知名逆向论坛
+https://bbs.pediy.com/
+
+安全客、先知等各类安全论坛，上面有各种大佬发的文章。
+
 ## PWN
 
-汇编语言、逆向基础
+pwn，及pwn to own，在黑客俚语中由own演变而来。通过逆向分析二进制程序，发现其可能存在的漏洞，并进行利用，从而达到信息泄露、权限获取等目的。
+
+需要掌握汇编语言、基础逆向方法。
+入门推荐到CTF wiki的pwn板块学习，上面有及其详细的pwn教程，各类漏洞点及利用。
+
+CTF一般为linux环境下的pwn，要熟悉linux的使用。
+IDA Pro 强大的反编译工具，有了它就能轻松审计漏洞了。
+gdb为做pwn题时调试必备的工具，网上有非常多关于gdb的教程。
+pwndbg——gdb插件：https://github.com/pwndbg/pwndbg
+pwntools为专门用来做pwn题的工具，所以要学习python与pwntools。
+
+其余学习教程：
 一步一步学ROP系列：
 http://wooyun.jozxing.cc/static/drops/tips-6597.html
 http://wooyun.jozxing.cc/static/drops/papers-7551.html
@@ -63,20 +122,39 @@ http://wooyun.jozxing.cc/static/drops/papers-11390.html
 
 ## 密码学
 
+密码学需要较强的数学基础。ctf wiki也是入门不错的选择。
+了解各种密码的实现过程，相关的攻击方法。
+各种密码推荐直接到英文维基学习，讲的十分详细，一般也会有源代码。
+上来学习密码学可以抄脚本，不用太关心其数学原理。等深入了解后再详细研究。
+
+古典密码——脑洞大开的密码：[链接](https://hackfun.org/2017/02/22/CTF%E4%B8%AD%E9%82%A3%E4%BA%9B%E8%84%91%E6%B4%9E%E5%A4%A7%E5%BC%80%E7%9A%84%E7%BC%96%E7%A0%81%E5%92%8C%E5%8A%A0%E5%AF%86/)
+
+RSA基础攻击：https://xz.aliyun.com/t/2446#toc-32
+RSA进阶攻击：https://github.com/mimoo/RSA-and-LLL-attacks
+
+一堆密码学的题目：https://cryptopals.com/
+
 推荐书籍：
+[《深入浅出密码学——常用加密技术原理与应用》](https://github.com/yuankeyang/python/blob/master/%E3%80%8A%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BA%E5%AF%86%E7%A0%81%E5%AD%A6%E2%80%94%E2%80%94%E5%B8%B8%E7%94%A8%E5%8A%A0%E5%AF%86%E6%8A%80%E6%9C%AF%E5%8E%9F%E7%90%86%E4%B8%8E%E5%BA%94%E7%94%A8%E3%80%8B.pdf)
 《密码编码学与网络安全——原理与实践（第七版》
 《图解密码技术》
 《应用密码学：协议、算法与C源程序》
 
 ## 杂项
 
+杂项，简称Misc。杂项的内容很多很广，需要选手有较大的知识面以及快速学习新鲜事物的能力。
+一般包括取证，隐写分析，编码转换，信息收集，流量分析等。有时密码学中的古典密码也被放到杂项里去。其中取证与隐写是misc最重要的一块。需要选手掌握各种花式隐写套路，需有较强的脚本功底，会用各类隐写工具。
+
 隐写
 https://www.jianshu.com/p/02fdd5edd9fc
-古典密码学
-https://www.cnblogs.com/gwind/p/8011248.html
 流量分析
 《Wireshark网络分析就这么简单》
+ctf-wiki:
+https://ctf-wiki.github.io/ctf-wiki/misc/introduction-zh/
 
 ## 总结
 
-每个人适合的安全方向不同，可以从中选择一两个自己感兴趣的方向来学习
+CTF可能门槛比较高，但是入门之后你会发现其乐趣
+在学习过程中遇到挫折不要轻易放弃，建议先谷歌查找相关资料，实在查不到再求助他人。
+关于如何提问，建议阅读这篇文章：https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md
+有任何问题可以到群里联系协会成员。
