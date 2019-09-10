@@ -7,6 +7,14 @@ https://ctf-wiki.github.io/ctf-wiki/
 CTF All-In-One：
 https://firmianay.gitbooks.io/ctf-all-in-one/content/
 
+入门平台：
+
+中科大新生赛：https://hack2018.lug.ustc.edu.cn/
+
+cgctf：https://cgctf.nuptsast.com/challenges
+
+bugku：https://ctf.bugku.com/
+
 ## WEB
 
 Web基础知识：
