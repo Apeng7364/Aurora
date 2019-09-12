@@ -33,47 +33,37 @@ bugku：https://ctf.bugku.com/
 
 学漏洞知识点之前，如果你了解了如上所说的一些东西，那么就可以学习下面的知识(进阶)啦，当然能学懂上面的知识可能需要大概3周左右的时间，多坚持，多提问。
 
-1、sql注入
+1. sql注入
 
-2、XSS攻击
+2. XSS攻击
 
-3、文件上传漏洞
+3. 文件上传漏洞
 
-4、文件包含漏洞
+4. 文件包含漏洞
 
-5、命令执行漏洞
+5. 命令执行漏洞
 
-。。。
+   。。。
 
-推荐一些学习站点：
-
-<https://ctf-wiki.github.io/ctf-wiki/>
-
+### 推荐一些学习站点
+https://ctf-wiki.github.io/ctf-wiki/>
 <https://xz.aliyun.com/>
-
 <https://www.anquanke.com/>
-
 <https://github.com/CHYbeta/Web-Security-Learning>
 
-推荐一些题库：
-
+### 推荐一些题库
 <https://cgctf.nuptsast.com/login>
-
 <https://www.jarvisoj.com/login>
 
-推荐一些大牛的博客：
-
+### 推荐一些大牛的博客
 <https://chybeta.github.io/>
-
 <https://www.jianshu.com/u/bf30f18c872c>
-
 <https://skysec.top/>
-
 <https://lorexxar.cn/>
-
 。。。
 
-推荐书籍：
+### 推荐书籍
+
 《白帽子讲web安全》
 《黑客攻防技术宝典·Web实战篇》
 
@@ -83,6 +73,8 @@ bugku：https://ctf.bugku.com/
 
 最好会C语言和汇编语言，不必系统的学习汇编，上来先一条一条查指令手册，等熟悉了再仔细学习。
 需了解常见加密算法的实现，要做到快速识别，无需了解攻击过程。
+
+如何学习逆向呢，可以看下面这基本书学习基础知识，**同时打比赛刷题**，以赛带练。
 
 ### 推荐书籍
 
@@ -141,7 +133,7 @@ https://bbs.pediy.com/
 pwn，及pwn to own，在黑客俚语中由own演变而来。通过逆向分析二进制程序，发现其可能存在的漏洞，并进行利用，从而达到信息泄露、权限获取等目的。
 
 需要掌握汇编语言、基础逆向方法。
-入门推荐到CTF wiki的pwn板块学习，上面有及其详细的pwn教程，各类漏洞点及利用。
+入门推荐到CTF wiki的pwn板块学习，上面有极其详细的pwn教程，各类漏洞点及利用。
 
 CTF一般为linux环境下的pwn，要熟悉linux的使用。
 IDA Pro 强大的反编译工具，有了它就能轻松审计漏洞了。
