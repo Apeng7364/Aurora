@@ -16,20 +16,63 @@ cgctf：https://cgctf.nuptsast.com/challenges
 中科大新生赛：https://hack2018.lug.ustc.edu.cn/
 bugku：https://ctf.bugku.com/
 
-中科大新生赛：https://hack2018.lug.ustc.edu.cn/
-
-bugku：https://ctf.bugku.com/
-
 ## WEB
 
-Web基础知识：
-http://www.w3school.com.cn/ html、css、JavaScript、PHP部分
-《跟兄弟连学PHP》
-乌云镜像：
-http://wooyun.chamd5.org/
-http://wooyun.jozxing.cc/
-先知论坛：
-https://xianzhi.aliyun.com/forum/
+1. 首先，大略过一下最基础的语言语法HTML／CSS、JavaScript、PHP、SQL的基本知识（平均一个语言4小时足矣），要做到看到这些代码的时候不会畏惧，能看懂大部分，看到不懂的能通过google或者相关文档查懂。主要参考：<http://www.w3school.com.cn/> 、<http://www.runoob.com/>，这里不要求学很深，很浅很浅就行，后面边学边用掌握的会更快。
+2. 现在，你初步了解了一些语言知识，接下来你就需要开始在实践中学习与巩固。
+3. 当然就是实践了。这里，我建议你搭建一个个人的博客，初步了解这些语言的应用。在搭建博客的过程中，你需要学习对应的linux操作、Apache+PHP+Mysql环境的配置、域名解析、服务器端口配置等等。如何搭建博客，请自行google搜索。此外，你也可以编写一些好玩的网页来学习这些知识点。
+
+如果你能完成如上所说的这些，尤其是第三点，那么恭喜你，你入门了，其实这些前期会遇到很多语言方面难免会遇到挫折，但是没关系，多百度多谷歌，多群里提问，我们都会及时给你解答，也可线下教学，直接到理工楼L3-1001。基本全天都有人。
+
+接下来可以了解基本的HTTP协议相关知识
+
+- 掌握HTTP请求：GET、POST、HEAD，能基本读懂一个HTTP数据包，了解GET、POST、HEAD的区别
+- 能看懂HTTP响应包 404 403 200 500 302 301 …
+- 了解Cookie、session、token，知道是什么东西，作用是什么，为什么需要这些东西
+- 了解Referer、X-Forwarded-For等等的作用
+
+学漏洞知识点之前，如果你了解了如上所说的一些东西，那么就可以学习下面的知识(进阶)啦，当然能学懂上面的知识可能需要大概3周左右的时间，多坚持，多提问。
+
+1、sql注入
+
+2、XSS攻击
+
+3、文件上传漏洞
+
+4、文件包含漏洞
+
+5、命令执行漏洞
+
+。。。
+
+推荐一些学习站点：
+
+<https://ctf-wiki.github.io/ctf-wiki/>
+
+<https://xz.aliyun.com/>
+
+<https://www.anquanke.com/>
+
+<https://github.com/CHYbeta/Web-Security-Learning>
+
+推荐一些题库：
+
+<https://cgctf.nuptsast.com/login>
+
+<https://www.jarvisoj.com/login>
+
+推荐一些大牛的博客：
+
+<https://chybeta.github.io/>
+
+<https://www.jianshu.com/u/bf30f18c872c>
+
+<https://skysec.top/>
+
+<https://lorexxar.cn/>
+
+。。。
+
 推荐书籍：
 《白帽子讲web安全》
 《黑客攻防技术宝典·Web实战篇》
