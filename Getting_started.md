@@ -9,14 +9,15 @@ https://ctf-wiki.github.io/ctf-wiki/
 
 ### 入门平台
 
-cgctf和攻防世界的新手区是面向萌新的CTF平台，题目非常简单。可以到这两个平台做题学习。
+这些都是一些CTF平台，题目由简入深十分友好。
 
-cgctf：https://cgctf.nuptsast.com/challenges
-攻防世界：https://adworld.xctf.org.cn/task
-中科大新生赛：https://hack2018.lug.ustc.edu.cn/
-bugku：https://ctf.bugku.com/
+[cgctf](https://cgctf.nuptsast.com/challenges)：南京邮电大学的平台，开始的题目十分友好
+[攻防世界](https://adworld.xctf.org.cn/task)：XCTF的练习平台，新手区十分友好。进阶区一般为各大XCTF比赛及各种国际赛的题。
+[picoCTF](https://picoctf.com/)： CMU主办的面向美国高中生的CTF比赛，从基础开始层层递进。
+[中科大新生赛](https://hack2018.lug.ustc.edu.cn/)：中科大2018的新生赛题目，环境都还在，开始的题目也十分友好。
+[BugkuCTF](https://ctf.bugku.com/)： 平台是免费的CTF训练平台，题目数量多网上解析全面对新手入门友好。
 
-## WEB
+## Web
 
 1. 首先，大略过一下最基础的语言语法HTML／CSS、JavaScript、PHP、SQL的基本知识（平均一个语言4小时足矣），要做到看到这些代码的时候不会畏惧，能看懂大部分，看到不懂的能通过google或者相关文档查懂。主要参考：<http://www.w3school.com.cn/> 、<http://www.runoob.com/>，这里不要求学很深，很浅很浅就行，后面边学边用掌握的会更快。
 2. 现在，你初步了解了一些语言知识，接下来你就需要开始在实践中学习与巩固。
@@ -67,7 +68,7 @@ https://ctf-wiki.github.io/ctf-wiki/>
 《白帽子讲web安全》
 《黑客攻防技术宝典·Web实战篇》
 
-## 逆向工程
+## Reverse
 
 逆向工程，Reverse，缩写一般为Re。旨在不知晓源码的情况下对程序进行分析，获取其流程，组织，结构等。CTF中一般为注册机这种形式。
 
@@ -133,7 +134,7 @@ https://bbs.pediy.com/
 pwn，及pwn to own，在黑客俚语中由own演变而来。通过逆向分析二进制程序，发现其可能存在的漏洞，并进行利用，从而达到信息泄露、权限获取等目的。
 
 需要掌握汇编语言、基础逆向方法。
-入门推荐到CTF wiki的pwn板块学习，上面有极其详细的pwn教程，各类漏洞点及利用。
+入门推荐到[CTF wiki](https://ctf-wiki.github.io/ctf-wiki/)的[pwn板块](https://ctf-wiki.github.io/ctf-wiki/pwn/readme-zh/)学习，上面有极其详细的pwn教程，各类漏洞点及利用。
 
 CTF一般为linux环境下的pwn，要熟悉linux的使用。
 IDA Pro 强大的反编译工具，有了它就能轻松审计漏洞了。
@@ -155,17 +156,16 @@ http://wooyun.jozxing.cc/static/drops/papers-11390.html
 《深入理解计算机系统（原书第3版）》
 《程序员的自我修养—链接、装载与库》
 
-## 密码学
+## Crypto
 
-密码学需要较强的数学基础。ctf wiki也是入门不错的选择。
+密码学需要较强的数学基础。[ctf wiki](https://ctf-wiki.github.io/ctf-wiki/crypto/introduction-zh/)也是入门不错的选择。
 了解各种密码的实现过程，相关的攻击方法。
 各种密码推荐直接到英文维基学习，讲的十分详细，一般也会有源代码。
 上来学习密码学可以抄脚本，不用太关心其数学原理。等深入了解后再详细研究。
 
 古典密码——脑洞大开的密码：[链接](https://hackfun.org/2017/02/22/CTF%E4%B8%AD%E9%82%A3%E4%BA%9B%E8%84%91%E6%B4%9E%E5%A4%A7%E5%BC%80%E7%9A%84%E7%BC%96%E7%A0%81%E5%92%8C%E5%8A%A0%E5%AF%86/)
-
-RSA基础攻击：https://xz.aliyun.com/t/2446#toc-32
-RSA进阶攻击：https://github.com/mimoo/RSA-and-LLL-attacks
+RSA攻击汇总：https://xz.aliyun.com/t/2446#toc-32
+RSAcoppersmiths攻击：https://github.com/mimoo/RSA-and-LLL-attacks
 
 一堆密码学的题目：https://cryptopals.com/
 
@@ -175,7 +175,7 @@ RSA进阶攻击：https://github.com/mimoo/RSA-and-LLL-attacks
 《图解密码技术》
 《应用密码学：协议、算法与C源程序》
 
-## 杂项
+## Misc
 
 杂项，简称Misc。杂项的内容很多很广，需要选手有较大的知识面以及快速学习新鲜事物的能力。
 一般包括取证，隐写分析，编码转换，信息收集，流量分析等。有时密码学中的古典密码也被放到杂项里去。其中取证与隐写是misc最重要的一块。需要选手掌握各种花式隐写套路，需有较强的脚本功底，会用各类隐写工具。
@@ -192,4 +192,4 @@ https://ctf-wiki.github.io/ctf-wiki/misc/introduction-zh/
 CTF可能门槛比较高，但是入门之后你会发现其乐趣
 在学习过程中遇到挫折不要轻易放弃，建议先谷歌查找相关资料，实在查不到再求助他人。
 关于如何提问，建议阅读这篇文章：https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md
-有任何问题可以到群里联系协会成员。
+有任何问题可以到群里或联系协会成员。

@@ -17,15 +17,19 @@
 
 ## 核心成员
 
-[@Decade](https://wulidecade.cn/)
+[@Decade](https://wulidecade.cn/)/Web
 
-[@Apeng](https://apeng.fun)
+[@Domineto](blog.domineto.top)/Web
 
-[@Domian](https://blog.52szu.tech/)
+[@Apeng](https://apeng.fun)/Re
 
-[@Obliviate](https://cp32.github.io/)
+[@Alikas](https://alikas.cf/)/Re
 
-[@Alikas](https://alikas.cf/)
+[@Obliviate](https://cp32.github.io/)/Pwn
+
+[@Domian](https://blog.52szu.tech/)/Misc/Web
+
+
 
 ## Q&A
 
@@ -39,7 +43,7 @@
 3. 我是纯萌新，能加入协会吗？
    除了极个别大佬（pizza），我们所有的成员刚加入协会的时候都是纯萌新。只要你足够热爱信安并坚持到最后，一定能成为大佬。
    
-4. 3.打CTF有什么硬件要求吗？
+4. 打CTF有什么硬件要求吗？
    没有硬性要求，如果想经常外出打比赛建议轻薄本。不需要很好的显卡。推荐到笔吧评测室选购合适的笔记本电脑，不建议线下买。
    
 5. 招新的流程是怎样的？
