@@ -12,9 +12,13 @@ https://ctf-wiki.github.io/ctf-wiki/
 这些都是一些CTF平台，题目由简入深十分友好。
 
 [cgctf](https://cgctf.nuptsast.com/challenges)：南京邮电大学的平台，开始的题目十分友好
+
 [攻防世界](https://adworld.xctf.org.cn/task)：XCTF的练习平台，新手区十分友好。进阶区一般为各大XCTF比赛及各种国际赛的题。
+
 [picoCTF](https://picoctf.com/)： CMU主办的面向美国高中生的CTF比赛，从基础开始层层递进。
+
 [中科大新生赛](https://hack2018.lug.ustc.edu.cn/)：中科大2018的新生赛题目，环境都还在，开始的题目也十分友好。
+
 [BugkuCTF](https://ctf.bugku.com/)： 平台是免费的CTF训练平台，题目数量多网上解析全面对新手入门友好。
 
 ## Web
